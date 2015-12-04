@@ -1,0 +1,20 @@
+{
+  "name": "spike-ko-browserify",
+  "version": "1.0.0",
+  "description": "A spike to show how browserify can be used to load knockout components in a routed SPA.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^12.0.1",
+    "gulp": "^3.9.0",
+    "tsify": "^0.13.1",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "knockout": "^3.4.0"
+  }
+}
